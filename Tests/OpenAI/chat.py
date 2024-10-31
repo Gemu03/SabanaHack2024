@@ -1,5 +1,5 @@
 from openai import OpenAI
-client = OpenAI(api_key="sk-LSjlPLeieIpOTI0QB30X5l1eZcx9tWZE4WcAQFDfCFT3BlbkFJREw1jW5Dskr9Z-bTVmN8FhM23GDWotzUj4jGK3yXcA")
+client = OpenAI()
 
 
 context=[
