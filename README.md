@@ -5,6 +5,7 @@
 - John Jairo Rojas 
 - Héctor José Guzmán
 - Tomás Barón
+- Samuel Esteban Ramirez
 
 ## Descripción
 Este repositorio es el oficial de Webelopers para la SabanaHack 2024, en el cual se encuentran los archivos necesarios para el desarrollo del proyecto y su documentación.
