@@ -44,3 +44,21 @@ Enlaces a recursos:
 
 ## Objetivo
 Implementar una solución que monitoree de manera efectiva la adherencia del personal sanitario al protocolo de lavado de manos en la UCI del INC, permitiendo reducir la carga de trabajo de los observadores y mejorar la cobertura y precisión del monitoreo.
+
+
+
+# Solución propuesta
+
+## Descripción
+Nuestra solución consiste en un **sistema de visión artificial** que permite monitorear y registrar de manera automatizada la **adherencia al protocolo de lavado de manos** en la UCI del INC. Para ello, se emplea un sistema embebido para cada lavamanos de la UCI, el cual consta de una **cámara** para la captura visual. Luego, se realiza un procesamiento de imágenes en tiempo real para reconocer las posturas de las manos, detectar objetos no permitidos y medir el tiempo total de lavado.
+
+Tras el procesamiento de las imágenes, se provee una **interfaz gráfica informativa** que muestra al usuario el gesto actual, el tiempo por gesto, el tiempo total de la técnica y una evaluación general del lavado.
+
+Luego estos datos son almacenados en una base de datos local en cada sistema embebido(micro SD) y se envían a un servidor central para su posterior análisis y seguimiento. En este servidor se almacenan los datos de todos los lavamanos de la UCI y se generan reportes de cumplimiento del protocolo de lavado de manos por cada trabajador. 
+
+## Componentes
+1. **Cámara de Captura**: Dispositivo para la captura de imágenes.
+2. **Sistema Embebido**: Dispositivo que procesa las imágenes y provee la interfaz gráfica. - Raspberry Pi 4
+3. **Servidor Central**: Almacena los datos y genera reportes de cumplimiento. - Servidor en la nube
+
+tenía pensado que las raspberry pi no estuvieran conectadas a internet, sino que se conectaran a un servidor local que se encargara de enviar la información al servidor central, quiero que en el txt me digas si es posible hacer esto o si es mejor que las raspberry pi estén conectadas a internet. dandome ventajas y desventajas.
