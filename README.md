@@ -59,7 +59,7 @@ $env:
 
 ### Modelos de Machine Learning
 #### Modelo de identificación de personas
-[Modelo de identificación de personas](https://drive.google.com)
+[Modelo de identificación de personas](https://drive.google.com/file/d/1hJsS1MYbnOHjkAYQYaFe38Js6_CGeHax/view?usp=sharing)
 
 #### Modelo de identificación de objetos no permitidos
 [Modelo de identificación de objetos no permitidos](https://drive.google.com)
@@ -68,6 +68,8 @@ $env:
 [Modelo de reconocimiento de gestos](https://drive.google.com)
 
 ### Sistema Embebido
+
+![](<Imagen de WhatsApp 2024-11-02 a las 19.24.16_39b500e1.jpg>)
 #### 0. Infraestructura
 El sistema embebido se compone de una Raspberry Pi 4 con 2 cámaras, una para el reconocimiento de personas y otra para el reconocimiento de gestos y objetos no permitidos. 
 Además, va a estar montado en un espejo inteligente con una pantalla LCD y un sistema de altavoces para la retroalimentación en tiempo real.
@@ -81,8 +83,17 @@ Se hace Localhost y se corre el modelo de identificación de personas, no permit
 
 
 #### 2. Implementacion de identificación de objetos no permitidos y reconocimiento de gestos
+[Modelo de identificación de objetos no permitidos](https://universe.roboflow.com/handwash-j49en/hand_wansh./model/1?webcam=true)
+1. Entrar
+2. Ir a pestaña que dice [Model]
+3. Try with Webcam.
 
+#### 3. Envio de datos a la nube y visualización de datos
+Los datos recolectados por el sistema embebido se envían a la nube para su posterior análisis y visualización.
 
-
-### Link de Google Drive
-[Link de Google Drive](https://drive.google.com)
+##### Comandos para correr el gestor de datos
+```bash
+cd plataforma_administrativa_de_cleany 
+npm install
+npm start
+```
