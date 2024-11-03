@@ -17,14 +17,16 @@ Presentamos un **Espejo Inteligente** que integra tecnología de visión artific
 
 ## Materiales y precio final:
 
-1. **Espejo 80*60**: COP $400.000
+1. **Vidrio Espiado**: COP $350.000
 2. **Raspberry Pi 4**: COP $500.000
 3. **Cámara Ultra Wide HD**: COP $100.000
-4. **Pantalla LCD**: COP $500.000
+4. **Monitor LCD**: COP $500.000
 5. **Sensores de Proximidad**: COP $50.000
 6. **Carcasa**: COP $200.000
 
-**Precio Total**: COP $1.750.000
+**Precio Total**: COP $1.700.000
+
+##
 
 ## Funcionamiento
 
