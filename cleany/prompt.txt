@@ -1,1 +1,0 @@
-Quiero que me digas el código html, css y js que muestre en el fondo de la página web la imagen de la camara del usuario. y en la parte de arriba muestre un texto o algo
