@@ -101,3 +101,6 @@ tendrás estos pasos:
 
 
 Somos un producto que ofrece a las clínicas y hospitales un sistema de monitoreo de lavado de manos. Nuestro sistema se basa en la instalación de estaciones de lavado de manos equipadas con cámaras y sensores que monitorean el proceso de lavado de manos de los trabajadores de la salud. El sistema registra el tiempo de lavado, los movimientos realizados y la efectividad del lavado de manos. Teniendo una interfaz de usuario (Cleany) que permite a los trabajadores de la salud ver su desempeño y recibir retroalimentación en tiempo real. Además, el sistema genera informes detallados sobre el cumplimiento del protocolo de lavado de manos, lo que ayuda a las clínicas y hospitales a mejorar la higiene y reducir la propagación de infecciones. Nuestro sistema es fácil de instalar y usar, y ofrece una solución efectiva y rentable para mejorar la higiene en entornos de atención médica.
+
+
+Dibuja con un estilo realista una persona frente a un **Espejo Inteligente IoT** que integra tecnología de visión artificial para monitorear y registrar automáticamente la adherencia al protocolo de lavado de manos en la Unidad de Cuidados Intensivos. el espejo se acopla a una estacion de lavado de manos desechable
