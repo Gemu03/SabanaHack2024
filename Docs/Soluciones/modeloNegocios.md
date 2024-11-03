@@ -2,15 +2,60 @@
 
 | Elemento                    | Descripción                                                                                                                                                                                                                         |
 |-----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Propuesta de Valor**      | brindamos una solucion integral, dando un diseño simple y futurista con la implementacion de tecnologis imnovadoras y que competiria con otros productos en el mercado, por su precio, ademas vendemos el 100% de efectividad en contro de lavado de manos en sitios de salud. |
+| **Propuesta de Valor**      | una solución integral y precisa para mejorar la adherencia al protocolo de higiene, nuestro producto es imnovador, ya que usa tecnologias nueavas como mirrorscreen y machine learning, brindando un monitoreo avanzado y minimalista para la reducción de infecciones hospitalarias |
 | **Segmento de Clientes**    |Clientes<br> - Instituciones de salud pública y privada (hospitales, clínicas, centros de salud)<br>- Administradores de control de infecciones en hospitales<br>- Entidades gubernamentales de salud en programas de higiene y control de infecciones <br>Usuarios<br>-personal del hospital, pacientes y administrativos.|
-| **Canales de Distribución** |Clientes<br>- Venta directa a hospitales y clínicas<br>- Asociaciones con distribuidores de equipos médicos<br>- Implementación de charlas orientadoras acerca del producto y del correcto lavado de manos<br>- Marketing en plataformas de salud y tecnología <br>-Se usara los canales de comunicación convencionales como correo o sms para notificar a los empleados si aun no han hecho su lavado de manos, cuando se aproximen a cada una de las maquinas. |
+| **Canales de Distribución** |Clientes<br>- Venta directa a hospitales y clínicas<br>- Asociaciones con distribuidores de equipos médicos<br>- Implementación de charlas orientadoras acerca del producto y del correcto lavado de manos<br>- Marketing en plataformas de salud y tecnología <br>- Se implementara un sistema de notificacion a las personas encargadas del personal del hospital, acerca de que personas se estan sometiendo al protocolo de lavado de manos y quienes no lo han hecho durante el día. |
 | **Relación con el Cliente** | - Contrato de suscripción mensual/anual para el soporte técnico y acceso a características avanzadas (Machine Learning Federado, Realidad Aumentada)<br>- Soporte técnico 24/7 para clientes con planes premium<br>- Entrenamiento inicial y tutoriales en línea <br>- Se brindara un servicio de instalacion inicial donde se deja todo acomodado para la empresa |
-| **Fuentes de Ingresos**     | - **Modelo Freemium**: Acceso básico gratuito para hospitales públicos (monitoreo de lavado de manos sin funciones avanzadas) el costo de instalacion no entra en este plan<br>- **Suscripción Premium**: Acceso a funciones avanzadas (Machine Learning Federado, P2P, Realidad Aumentada, soporte técnico)<br>- **Mantenimiento y Actualización**: Tarifas por mantenimiento periódico de hardware y actualizaciones de software, personalizables según el tamaño de la instalación, se cobra mes a mes o anual. |
+| **Fuentes de Ingresos**     | - **Modelo standard**: Se ofrece la instalacion de las estaciones de lavado de manos, ademas de su respectiva configuracion, no ofrece mantenimientos postintalación <br>- **Suscripción Premium**: Acceso a funciones avanzadas (Plataforma de seguimiento al lavado de manos en la clinica, Machine Learning Federado, P2P, Realidad Aumentada, soporte técnico basico de maximo 3 estaciones de lavado)<br>- **Mantenimiento y Actualización**: Tarifas por mantenimiento periódico de hardware y actualizaciones de software, personalizables según el tamaño de la instalación, se cobra mes a mes o anual. |
 | **Recursos Clave**          | - Equipos y tecnología de visión artificial y cámaras embebidas (Raspberry Pi)<br>- Desarrollo de software para Machine Learning Federado, P2P y Realidad Aumentada<br>- Equipo de soporte técnico y ventas para implementación y mantenimiento<br>- Alianzas estratégicas con instituciones de salud y universidades para pruebas y validación de la tecnología |
 | **Actividades Clave**       | - Investigación y desarrollo en tecnologías de visión artificial y Machine Learning Federado<br>- Entrenamiento del personal de salud en el uso de la interfaz de monitoreo<br>- Servicio de soporte y mantenimiento técnico<br>- Actualización de los modelos y algoritmos de visión artificial basados en feedback y datos recolectados |
 | **Socios Clave**            | - Instituciones de salud (hospitales y clínicas) como early adopters<br>- Ministerios de Salud o entes regulatorios para normativas y regulaciones<br>- Proveedores de hardware (e.g., cámaras, microSD, Raspberry Pi, el cristal, las pantallas, proveedor de grifos, proveedor de dispensadores de jabon)<br>- Empresas de tecnología en salud para colaboración en modelos de distribución |
 | **Estructura de Costos**    | - Costos de hardware (Raspberry Pi, cámaras, almacenamiento)<br>- Desarrollo de software (Machine Learning Federado, Realidad Aumentada, interfaz gráfica)<br>- Gastos de soporte y mantenimiento técnico<br>- Marketing y ventas para adquisición de clientes y fidelización<br>- Capacitación y entrenamientos periódicos para actualización de protocolos y normativa de higiene <br>- Implementacion de las charlas y capacitaciones con speakers con las habilidades tecnicas y sociales para dar esas charlas |
+
+
+
+
+
+---
+
+# Modelo Canvas generado por Chat
+
+| **Bloques**             | **Descripción**                                                                                                                                       |
+|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Propuesta de Valor**  | Sistema innovador de monitoreo de higiene en hospitales que reduce el riesgo de infecciones asociadas al ámbito de salud (IAS), mejora la seguridad y reputación de la institución, y permite una organización efectiva de protocolos de higiene. Incluye mirrorscreen con autenticación facial y machine learning federado. |
+| **Segmento de Clientes** |- Hospitales y clínicas, especialmente en unidades críticas como UCI. Enfoque inicial en instituciones de salud en Colombia, con proyección global. <br> - Administradores de control de infecciones en hospitales|
+| **Canales**             | - Canales directos de venta e instalación.<br>- Distribuidores especializados en tecnología hospitalaria.<br>- Convenios con instituciones de salud y asociaciones médicas para adopción temprana. |
+| **Relación con Clientes**| - Plan de instalacion freemium y premium. <br>- Soporte continuo en tres niveles: Básico, Estándar y Premium, según la cantidad de dispositivos y nivel de servicio previamente contratado en la instalacion.<br>- Capacitación inicial para el personal en uso del sistema.<br>- Comunicación continua mediante plataformas y actualizaciones para optimizar el monitoreo. |
+| **Fuentes de Ingreso**  | - Modelo Freemium: Instalación básica sin conexión centralizada la maquina depende de internet, datos locales.<br>- Suscripción Premium: monitoreo avanzado en nube, machine learning federado, y escalabilidad.<br>- Paquetes de instalación: 1-4 unidades, 5-10 unidades, y personalizable para más de 10 dispositivos. <br>- Planes de mantenimiento, basico, estandar y premium.|
+| **Recursos Clave**      | - Infraestructura física: mirrorscreen, pantalla, Raspberry Pi, grifo inteligente, dispensador de jabón.<br>- Personal en IA y ciberseguridad para mantenimiento de software y privacidad de datos.<br>- Plataforma en la nube para almacenamiento y procesamiento de datos. |
+| **Actividades Clave**   | - Desarrollo y perfeccionamiento del sistema de reconocimiento de gestos y monitoreo.<br>- Implementación de machine learning federado para sincronización.<br>- Instalación y mantenimiento de equipos en hospitales.<br>- Gestión de soporte técnico y capacitaciónes iniciales. |
+| **Socios Clave**        | - Instituciones de salud para pruebas piloto y adopción del sistema.<br>- Empresas de ciberseguridad para asegurar la privacidad de los datos de monitoreo.<br>- Proveedores de hardware especializado para abastecimiento y mantenimiento de equipos. |
+| **Estructura de Costos**| - Estación de limpieza: espejo con mirrorscreen, pantalla interactiva, Raspberry Pi, grifo inteligente, dispensador de jabón inteligente.<br>- Infraestructura en la nube para datos (estimación variable según uso y escalabilidad).<br>- Personal en IA y ciberseguridad para desarrollo, mantenimiento y protección de datos. |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Argumentación del Modelo Freemium
 
