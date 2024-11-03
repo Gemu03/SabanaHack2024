@@ -25,6 +25,8 @@ import {
   PaginationNext,
   PaginationPrevious,
 } from "../ui/pagination";
+import NavMobile from "./Nav/NavMobile";
+import NavWeb from "./Nav/NavWeb";
 import Loader from "../Loader/Loader";
 
 import data from "./MOCK_DATA.json";
@@ -42,7 +44,7 @@ export function DataTableDemo() {
     if (event.target.closest(".dropdown-menu")) {
       return;
     }
-    navigate("/datatable/detail/");
+    navigate("/datatable/detail");
   };
   const filteredData = useMemo(() => {
     let filtered = data;
@@ -182,7 +184,7 @@ export function DataTableDemo() {
     { accessorKey: "nombre", header: "Nombre del Usuario" },
     { accessorKey: "cargo", header: "Cargo del Usuario" },
     { accessorKey: "fechaHora", header: "Fecha y Hora del Lavado" },
-    { accessorKey: "duracion", header: "Duración del Lavado (seg)" },
+    { accessorKey: "duracion total en seg", header: "Duración del Lavado (seg)" },
     {
       accessorKey: "promedioDuracionPorgesto",
       header: "Promedio de Duración por Gesto (seg)",
@@ -206,6 +208,8 @@ export function DataTableDemo() {
       className="min-h-screen flex"
       style={{ overflowY: "hidden", height: "100vh" }}
     >
+      <NavMobile />
+      <NavWeb />
       {loading && <Loader />}
       <div className="w-full" style={{ overflowY: "scroll" }}>
         <div className="bg-white rounded-lg flex justify-between items-center p-5">
