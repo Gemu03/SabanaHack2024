@@ -17,3 +17,9 @@ El sistema asegura la calidad y el cumplimiento del protocolo de lavado de manos
 
 ## Conclusion y llamada a la axion
 Los invitamos a que concideren la propuesta de invertir en nuestra solucion integral, para evitar los malos habitos de lavado de mano. 
+
+
+
+# Referencias
+
+https://www.unicef.org/media/124521/file/State%20of%20the%20World%27s%20Hand%20Hygiene.pdf
