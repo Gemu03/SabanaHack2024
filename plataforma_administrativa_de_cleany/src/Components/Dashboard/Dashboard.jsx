@@ -5,7 +5,6 @@ import {
   Bar,
   BarChart,
   CartesianGrid,
-  Rectangle,
   XAxis,
   YAxis,
   Tooltip,
@@ -20,15 +19,11 @@ import {
 import {
   Card,
   CardContent,
-  CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from "../ui/card";
 import {
-  ChartConfig,
   ChartContainer,
-  ChartTooltip,
   ChartTooltipContent,
 } from "../ui/chart";
 import data1 from "../DataTable/MOCK_DATA.json";
@@ -50,39 +45,31 @@ const Dashboard = () => {
   // Procesa los datos para el gráfico
   const chartData = data.map((item) => ({
     browser: item.cargo.toLowerCase().replace(/\s+/g, "-"),
-    visitors: item["duracion total en seg"],
+    visitors: item.duracionTotalEnSeg,
     fill: `var(--color-${item.cargo.toLowerCase().replace(/\s+/g, "-")})`,
   }));
-  
+
   const chartConfig = {
     visitors: {
       label: "Tiempo de duración del lavado en segundos",
     },
-    "staff-scientist": {
-      label: "Staff Scientist",
+    "enfermero": {
+      label: "Enfermero",
       color: "hsl(var(--chart-1))",
     },
-    "environmental-specialist": {
-      label: "Environmental Specialist",
+    "doctor": {
+      label: "Doctor",
       color: "hsl(var(--chart-2))",
     },
-    "developer-ii": {
-      label: "Developer II",
+    "especialista": {
+      label: "Especialista",
       color: "hsl(var(--chart-3))",
-    },
-    "senior-quality-engineer": {
-      label: "Senior Quality Engineer",
-      color: "hsl(var(--chart-4))",
-    },
-    "research-associate": {
-      label: "Research Associate",
-      color: "hsl(var(--chart-5))",
     },
   };
 
   const chartlineData = data.map(item => ({
     fechaHora: item.fechaHora,
-    duracion: item["duracion total en seg"]
+    duracion: item.duracionTotalEnSeg
   }));
 
   const evaluationCounts = data.reduce((acc, item) => {
@@ -112,7 +99,7 @@ const Dashboard = () => {
               <BarChart width={280} height={220} data={chartData}>
                 <CartesianGrid vertical={false} />
                 <XAxis dataKey="browser" tickLine={false} tickMargin={10} axisLine={false} />
-                <ChartTooltip cursor={false} content={<ChartTooltipContent hideLabel />} />
+                <Tooltip cursor={false} content={<ChartTooltipContent hideLabel />} />
                 <Bar dataKey="visitors" strokeWidth={2} radius={8} />
               </BarChart>
             </ChartContainer>
